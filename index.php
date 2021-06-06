@@ -16,6 +16,7 @@
 
 <h1>Questo è il testo: <?php echo $testo;?> </h1>
 <h1>Questa è la lunghezza del testo: <?php echo strlen($testo);?> </h1>
+<h1>Questa è la lunghezza del testo censurato: <?php echo strlen(str_replace("cazzo", "$censura", $testo));?> </h1>
 <h1>Questo è il testo censurato: <?php echo str_replace("cazzo", "$censura", $testo);?> </h1>
 
 <!-- Creare una variabile con un paragrafo di testo a vostra scelta.
